@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#F9FBE7">
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Numere"
+        android:textStyle="bold"
+        style="@style/CategoryStyle"
+        android:background="@color/colorNumbers"
+        />
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Membrii familiei"
+        android:textStyle="bold"
+        style="@style/CategoryStyle"
+        android:background="@color/colorFamily"
+        />
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Culori"
+        android:textStyle="bold"
+        style="@style/CategoryStyle"
+        android:background="@color/colorColors"
+        />
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Fraze uzuale"
+        android:textStyle="bold"
+        style="@style/CategoryStyle"
+        android:background="@color/colorPhrases"
+        />
+
+    <TextView
+        android:id="@+id/animals"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Animale"
+        android:textStyle="bold"
+        style="@style/CategoryStyle"
+        android:background="@color/colorAnimals"
+        />
+
+</LinearLayout>
